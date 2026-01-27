@@ -18,6 +18,7 @@ const videoData = [
         description: "Video 2 Description",
         fullDescription: "Additional information about Video 2 that appears when expanded.",
         videoUrl: "/images/videos/test1.mp4",
+        previewUrl: 'https://www.ralphvituccio.com/',
     },
     {
         id: 3,
@@ -25,6 +26,7 @@ const videoData = [
         description: "Video 3 Description",
         fullDescription: "More details about Video 3 for interested viewers.",
         videoUrl: "/images/videos/test1.mp4",
+        previewUrl: 'https://www.ralphvituccio.com/',
     }
 ]
 
@@ -43,6 +45,7 @@ const VideoSection = () => {
             description={video.description} 
             fullDescription={video.fullDescription}
             videoUrl={video.videoUrl}
+            previewUrl={video.previewUrl}
         />
         ))}
         </div>

@@ -46,7 +46,7 @@ const VideoCard = ({ videoUrl, title, description, fullDescription, previewUrl }
         {fullDescription && (
           <button 
             onClick={() => setIsExpanded(!isExpanded)}
-            className="text-purple-400 hover:text-purple-300 transition-colors text-sm font-semibold"
+            className="text-blue-400 hover:text-blue-300 transition-colors text-sm font-semibold"
           >
             {isExpanded ? "Show Less" : "Read More"}
           </button>

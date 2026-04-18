@@ -7,8 +7,8 @@ const videoData = [
     {
         id: 1,
         title: "Mai Khoi",
-        description: "Video 1 Description",
-        fullDescription: "This is the expanded description with more details about the video.",
+        description: "Mai Khoi is a Vietnamese singer-songwriter and political activist known as 'Vietnam's Lady Gaga'. She transformed from a pop star to a dissident after being censored by the Vietnamese government for her activism advocating for democracy and human rights.",
+        fullDescription: "Mai Khoi is a Vietnamese musician and activist who evolved from a celebrated pop star to one of Vietnam's most prominent dissidents. Known as Vietnam's Lady Gaga', she faced government censorship and harassment after publicly advocating for democracy, human rights, and political reform. Her concerts were banned, and she was placed under surveillance for attempting to run for political office and staging protests.In 2019, Mai Khoi fled Vietnam and sought asylum in the United States. She continues her activism through music and advocacy, speaking out against authoritarianism and fighting for freedom of expression. She is currently based in the United States and remains a powerful voice for Vietnamese dissidents and democracy activists worldwide.",
         youtubeUrl: "https://www.youtube.com/embed/4gldcJvXJb8",
         previewUrl: 'https://mai-khoi.com/',
     },
@@ -23,8 +23,8 @@ const videoData = [
     {
         id: 3,
         title: "Oleksander Fraze-Frazenko",
-        description: "Video 3 Description",
-        fullDescription: "More details about Video 3 for interested viewers.",
+        description: "Oleksander Fraze-Frazenko is a Ukrainian artist, activist, and LGBTQ+ rights advocate who has been at the forefront of fighting for equality and human rights in Ukraine.",
+        fullDescription: "Oleksander Fraze-Frazenko is a Ukrainian artist, activist, and one of Ukraine's leading LGBTQ+ rights advocates. He has been instrumental in organizing Pride events and advocating for equality in Ukraine, often facing threats and violence for his activism. His work combines art and activism to challenge discrimination and promote human rights. Following Russia's invasion of Ukraine in 2022, Fraze-Frazenko has continued his advocacy work while also raising awareness about the impact of war on marginalized communities. He has become an important voice in documenting the experiences of LGBTQ+ Ukrainians during wartime and advocating for their safety and rights both within Ukraine and internationally.",
         youtubeUrl: "https://www.youtube.com/embed/3E43mSP5fV0",
         previewUrl: 'https://frazefrazenko.com',
     },

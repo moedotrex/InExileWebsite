@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Link from "next/link";
 
-const VideoCard = ({ videoUrl, title, description, fullDescription, previewUrl }) => {
+const VideoCard = ({ videoUrl, youtubeUrl, title, description, fullDescription, previewUrl }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -13,15 +13,28 @@ const VideoCard = ({ videoUrl, title, description, fullDescription, previewUrl }
           paddingTop: "56.25%",
           }}
       >
-        <video
-          className="absolute top-0 left-0 w-full h-full object-cover rounded-t-xl"
-          controls
-          playsInline
-          poster="/images/videos/test1.jpg"
-        >
-          <source src={videoUrl} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        {youtubeUrl ? (
+          // YouTube embed
+          <iframe
+            className="absolute top-0 left-0 w-full h-full rounded-t-xl"
+            src={youtubeUrl}
+            title={title}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        ) : (
+          // Regular video file
+          <video
+            className="absolute top-0 left-0 w-full h-full object-cover rounded-t-xl"
+            controls
+            playsInline
+            poster="/images/videos/test1.jpg"
+          >
+            <source src={videoUrl} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        )}
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
@@ -35,7 +48,7 @@ const VideoCard = ({ videoUrl, title, description, fullDescription, previewUrl }
                 href={previewUrl} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-purple-400 hover:text-purple-300 underline"
+                className="text-blue-400 hover:text-blue-300 underline"
               >
                 Learn more →
               </a>
@@ -48,7 +61,7 @@ const VideoCard = ({ videoUrl, title, description, fullDescription, previewUrl }
             onClick={() => setIsExpanded(!isExpanded)}
             className="text-blue-400 hover:text-blue-300 transition-colors text-sm font-semibold"
           >
-            {isExpanded ? "Show Less" : "Read More"}
+            {isExpanded ? "Show Less" : "Read More"}  
           </button>
         )}
       </div>

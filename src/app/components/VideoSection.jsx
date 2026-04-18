@@ -9,7 +9,7 @@ const videoData = [
         title: "Mai Khoi",
         description: "Video 1 Description",
         fullDescription: "This is the expanded description with more details about the video.",
-        youtubeUrl: "https://youtu.be/4gldcJvXJb8",
+        youtubeUrl: "https://www.youtube.com/embed/4gldcJvXJb8",
         previewUrl: 'https://mai-khoi.com/',
     },
     {
@@ -25,15 +25,15 @@ const videoData = [
         title: "Oleksander Fraze-Frazenko",
         description: "Video 3 Description",
         fullDescription: "More details about Video 3 for interested viewers.",
-        youtubeUrl: "https://youtu.be/3E43mSP5fV0",
-        previewUrl: 'frazefrazenko.com',
+        youtubeUrl: "https://www.youtube.com/embed/3E43mSP5fV0",
+        previewUrl: 'https://frazefrazenko.com',
     },
     {
         id: 4,
         title: "Muhktar Shehata",
         description: "Video 3 Description",
         fullDescription: "More details about Video 3 for interested viewers.",
-        youtubeUrl: "https://youtu.be/-AwvlwB0JoM",
+        youtubeUrl: "https://www.youtube.com/embed/-AwvlwB0JoM",
         previewUrl: 'https://www.ralphvituccio.com/',
     },
     {
@@ -41,7 +41,7 @@ const videoData = [
         title: "Haifa Subay",
         description: "Video 3 Description",
         fullDescription: "More details about Video 3 for interested viewers.",
-        youtubeUrl: "https://youtu.be/RwCAg1dHtlA",
+        youtubeUrl: "https://www.youtube.com/embed/RwCAg1dHtlA",
         previewUrl: 'https://www.instagram.com/haifasubay/?hl=en',
     },
     {
@@ -49,7 +49,7 @@ const videoData = [
         title: "Habibullah Sorosh",
         description: "Video 3 Description",
         fullDescription: "More details about Video 3 for interested viewers.",
-        youtubeUrl: "https://youtu.be/aGSUgClJmnY",
+        youtubeUrl: "https://www.youtube.com/embed/aGSUgClJmnY",
         previewUrl: 'https://www.ralphvituccio.com/',
     },
     {
@@ -57,7 +57,7 @@ const videoData = [
         title: "Rania Mamoun",
         description: "Video 3 Description",
         fullDescription: "More details about Video 3 for interested viewers.",
-        youtubeUrl: "https://youtu.be/WWxP_U0M_MU",
+        youtubeUrl: "https://www.youtube.com/embed/WWxP_U0M_MU",
         previewUrl: 'https://www.instagram.com/raniamamoun/?hl=en',
     },
     {
@@ -65,7 +65,7 @@ const videoData = [
         title: "Anouar Rahmani",
         description: "Video 3 Description",
         fullDescription: "More details about Video 3 for interested viewers.",
-        youtubeUrl: "https://youtu.be/P3bGjcafxPw",
+        youtubeUrl: "https://www.youtube.com/embed/P3bGjcafxPw",
         previewUrl: 'https://anouarrahmani.com/',
     }
 ]

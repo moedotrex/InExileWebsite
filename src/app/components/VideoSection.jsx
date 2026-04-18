@@ -30,7 +30,7 @@ const videoData = [
     },
     {
         id: 4,
-        title: "Muhktar Shehata",
+        title: "Mukhtar Saad Shehata",
         description: "Video 3 Description",
         fullDescription: "More details about Video 3 for interested viewers.",
         youtubeUrl: "https://www.youtube.com/embed/-AwvlwB0JoM",
@@ -84,7 +84,6 @@ const VideoSection = () => {
             title={video.title} 
             description={video.description} 
             fullDescription={video.fullDescription}
-            videoUrl={video.videoUrl}
             youtubeUrl={video.youtubeUrl}
             previewUrl={video.previewUrl}
         />

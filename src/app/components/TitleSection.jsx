@@ -7,7 +7,10 @@ const TitleSection = () => {
         <div className="md:w-1/2">
             <h1 className='text-white mb-6 text-5xl font-extrabold'>In Exile</h1>
             <p className='text-[#ADB7BE] text-lg lg:text-xl'>
-                In Exile is a documentary about...
+                "In Exile" is a deeply moving and visually arresting documentary that brings to life the powerful stories of artists, writers, musicians, and political activists forced to flee their homelands. Each individual represents a nation in turmoil — from authoritarian regimes to war-torn landscapes — yet their voices rise above silence and displacement.
+Through intimate interviews and hauntingly beautiful imagery, "In Exile" offers a rare glimpse into the personal cost of exile and the resilience of the creative spirit. These are not just stories of survival, but of resistance, identity, and the enduring power of art to challenge injustice.
+More than a film, "In Exile" is a call to empathy — a timely exploration of forced migration, cultural memory, and the long shadow of political violence that continues to shape our world.
+
             </p>
         </div>
         <div className="md:w-1/2">

@@ -17,7 +17,7 @@ const videoData = [
         title: "Jorge & Nancy",
         description: "Video 2 Description",
         fullDescription: "Additional information about Video 2 that appears when expanded.",
-        videoUrl: "/images/videos/test1.mp4",
+        youtubeUrl: "https://www.youtube.com/embed/HMI5NNpMQYU",
         previewUrl: 'https://www.ralphvituccio.com/',
     },
     {
@@ -77,7 +77,7 @@ const VideoSection = () => {
     <h2 className='text-center text-4xl font-bold text-white mt-2 mb-16 md:mb-1'>
         Video Section
     </h2>
-        <div className='grid md:grid-cols-3 gap-8 md:gap-12 mt-8'>
+        <div className='grid md:grid-cols-2 gap-8 md:gap-12 mt-8'>
         {videoData.map((video) => (
             <VideoCard 
             key={video.id} 

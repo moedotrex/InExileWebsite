@@ -85,6 +85,7 @@ const VideoSection = () => {
             description={video.description} 
             fullDescription={video.fullDescription}
             videoUrl={video.videoUrl}
+            youtubeUrl={video.youtubeUrl}
             previewUrl={video.previewUrl}
         />
         ))}

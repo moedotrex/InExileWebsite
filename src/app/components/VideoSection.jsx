@@ -12,8 +12,8 @@ const videoData = [
         youtubeUrl: "https://www.youtube.com/embed/4gldcJvXJb8",
         previewUrl: 'https://mai-khoi.com/',
         additionalLinks: [
-            { label: "Instagram", url: "https://www.instagram.com/mai.khoi/" },
-            { label: "Twitter", url: "https://twitter.com/maikhoihanoi" }
+            { label: "YouTube", url: "https://www.youtube.com/channel/UCVCatn-t5oDpJU1f1j9dFkg" },
+            { label: "Mai Khoi and The Art of Creative Dissent", url: "https://www.youtube.com/watch?v=HVi06EwtBX4" }
         ]
     },
     {
@@ -31,6 +31,11 @@ const videoData = [
         fullDescription: "Oleksander Fraze-Frazenko is a Ukrainian artist, activist, and one of Ukraine's leading LGBTQ+ rights advocates. He has been instrumental in organizing Pride events and advocating for equality in Ukraine, often facing threats and violence for his activism. His work combines art and activism to challenge discrimination and promote human rights. Following Russia's invasion of Ukraine in 2022, Fraze-Frazenko has continued his advocacy work while also raising awareness about the impact of war on marginalized communities. He has become an important voice in documenting the experiences of LGBTQ+ Ukrainians during wartime and advocating for their safety and rights both within Ukraine and internationally.",
         youtubeUrl: "https://www.youtube.com/embed/3E43mSP5fV0",
         previewUrl: 'https://frazefrazenko.com',
+        additionalLinks: [
+            { label: "YouTube", url: "https://www.youtube.com/user/frazefrazenko" },
+            { label: "Wikipeda", url: "https://en.wikipedia.org/wiki/Oleksandr_Fraze-Frazenko" },
+            { label: "FAQ Ukraine: In English and Ukrainian", url: "https://www.amazon.com/FAQ-Ukraine-Ukrainian-Oleksandr-Fraze-Frazenko/dp/B0D6QD1N8C" }
+        ]
     },
     {
         id: 4,
@@ -38,7 +43,7 @@ const videoData = [
         description: "Mukhtar Shehata is an Egyptian freelance researcher and writer. He holds an MA degree in African Studies, Indigenous Peoples, and Black Cultures from the Universidade do Estado da Bahia. He is the author of several novels, short stories, and research essays, and co-author with Samuli Schielke of the monograph 'Shared Margins: An Ethnography with Writers in Alexandria after the Revolution.'",
         fullDescription: "More details about Video 3 for interested viewers.",
         youtubeUrl: "https://www.youtube.com/embed/-AwvlwB0JoM",
-        previewUrl: 'https://www.ralphvituccio.com/',
+        previewUrl: '/Mukhtar',
     },
     {
         id: 5,
@@ -54,7 +59,6 @@ const videoData = [
         description: "Habibullah Sorosh is an Afghan artist and activist who has been featured in various cultural programs and exhibitions in the United States.",
         fullDescription: "Habibullah Sorosh is an Afghan artist and activist currently residing in the United States. He has participated in programs at MIT's List Visual Arts Center and has been featured in exhibitions exploring themes of displacement and cultural identity. Sorosh continues to engage with the Afghan diaspora community through his artistic practice.",
         youtubeUrl: "https://www.youtube.com/embed/aGSUgClJmnY",
-        previewUrl: 'https://www.ralphvituccio.com/',
     },
     {
         id: 7,

@@ -90,6 +90,7 @@ const VideoSection = () => {
             fullDescription={video.fullDescription}
             youtubeUrl={video.youtubeUrl}
             previewUrl={video.previewUrl}
+            additionalLinks={video.additionalLinks}
         />
         ))}
         </div>

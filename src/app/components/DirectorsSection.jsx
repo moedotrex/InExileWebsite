@@ -5,7 +5,7 @@ const directorsData = [
     {
         id: 1,
         name: "Ralph Vituccio",
-        bio: "Ralph Thomas Vituccio is a filmmaker and Professor of Media at Carnegie Mellon University.",
+        bio: "Ralph Thomas Vituccio is a filmmaker and Professor of Media at Carnegie Mellon University. His work explores themes of displacement, exile, and human rights through documentary filmmaking. Vituccio's films have been screened internationally and focus on giving voice to artists and activists who have been forced to flee their homelands. As an educator, he mentors students in documentary production and socially engaged media practices, emphasizing the power of storytelling to create social change and preserve cultural memory.",
         image: "/images/ralph.jpg",
         links: [
             { label: "Website", url: "https://www.ralphvituccio.com/" }

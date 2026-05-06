@@ -5,21 +5,22 @@ const directorsData = [
     {
         id: 1,
         name: "Ralph Vituccio",
-        bio: "Ralph Vituccio is a filmmaker and documentary director...", // Add full bio here
-        image: "/images/ralph.jpg", // Add image path
+        bio: "Ralph Thomas Vituccio is a filmmaker and Professor of Media at Carnegie Mellon University.",
+        image: "/images/ralph.jpg",
         links: [
-            { label: "Website", url: "https://www.ralphvituccio.com/" },
-            { label: "IMDb", url: "https://www.imdb.com/name/..." }, // Add actual URLs
+            { label: "Website", url: "https://www.ralphvituccio.com/" }
         ]
     },
     {
         id: 2,
         name: "Reem Alghazi",
-        bio: "Reem Alghazi is a documentary filmmaker...", // Add full bio here
-        image: "/images/reem.jpg", // Add image path
+        bio: "Reem Alghazzi is a Syrian Artist. She has directed and produced several short films individually and as part of collectives. Her films have been screened at the Cinéma du réel in Paris and the Locarno International Film Festival. Alghazzi has published several articles and texts in local and Arabic websites/newspapers. Her work has been also presented in several exhibitions and in the Museum of Modern Art in Warsaw. In 2010, she established the Stories Film Lab, in Damascus. In 2023 she was awarded Samira Alkhalil’s Prize in Paris.",
+        image: "/images/reem.jpg",
         links: [
-            { label: "Website", url: "https://www.youtube.com/watch?v=-_KLSRfYyUk" },
-            { label: "Instagram", url: "https://www.instagram.com/..." }, // Add actual URLs
+            { label: "Syrian Dinner & Movie: Becoming Iphigenia", url: "https://www.youtube.com/watch?v=-_KLSRfYyUk" },
+            { label: "Filmmaker Reem Al Ghazzi on the project Becoming Iphigenia", url: "https://soundcloud.com/freecityradio/190-filmmaker-reem-al-ghazzi-on-the-project-becoming-iphigenia" }, 
+            { label: "Becoming Iphigenia", url: "https://cinemapublic.ca/en/films/becoming-iphigenia/" },
+            { label: "Echoes from Syria", url: "https://guidedoc.tv/documentary/becoming-iphigenia-documentary-film/" },
         ]
     }
 ]

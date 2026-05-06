@@ -42,7 +42,7 @@ const videoData = [
         description: "Mukhtar Shehata is an Egyptian freelance researcher and writer. He holds an MA degree in African Studies, Indigenous Peoples, and Black Cultures from the Universidade do Estado da Bahia. He is the author of several novels, short stories, and research essays, and co-author with Samuli Schielke of the monograph 'Shared Margins: An Ethnography with Writers in Alexandria after the Revolution.'",
         fullDescription: "Mukhtar Shehata is an Egyptian writer and independent researcher affiliated with Leibniz-Zentrum Moderner Orient (ZMO) in Berlin. His research focuses on changes in the lives of Egyptian women and the rise of the 'semi-city' after the 2011 revolution. Together with Samuli Schielke, he examines how rural-urban and international migrations transform society between Egypt and its diasporas, particularly how conservative strivings and the dream of stability create new forms of life that both reproduce and undermine patriarchal ideals. His work explores the emergence of 'semi-cities' where rural traditions and urban consumerist lifestyles intermingle, creating new tactical avenues of action especially for women in families seeking to combine urban lifestyles with village residence.",
         youtubeUrl: "https://www.youtube.com/embed/-AwvlwB0JoM",
-        previewUrl: '/Mukhtar',
+        previewUrl: '/mukhtar',
     },
     {
         id: 5,
@@ -53,7 +53,7 @@ const videoData = [
         previewUrl: 'https://haifasubay.wordpress.com/',
         additionalLinks: [
             { label: "Shiftworks Community", url: "https://shiftworkspgh.org/pittsburgh-creative-corps/artist-directory/haifa-subay/" },
-            { label: "iNSTAGRAM", url: "https://www.instagram.com/haifasubay/?hl=en" }
+            { label: "Instagram", url: "https://www.instagram.com/haifasubay/?hl=en" }
         ]
     },
     {

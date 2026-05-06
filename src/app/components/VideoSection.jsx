@@ -22,7 +22,6 @@ const videoData = [
         description: "Writer Jorge Olivera Castillo and human rights defender Nancy Alfaya are Cuban activists who have dedicated their careers to bringing sociopolitical change through fiction, poetry, journalism, and activism. Both have been arrested and imprisoned on numerous occasions for their work advocating for democratic change and political and artistic freedom in Cuba.",
         fullDescription: "Jorge Olivera Castillo is a Cuban writer, poet, and journalist who was arrested in 2003 during the 'Black Spring' purge of 75 dissidents. He was sentenced to 18 years in prison for 'producing enemy propaganda' after reporting for Radio Marti on the realities of ordinary Cubans. After being held in solitary confinement for 9 months, he was released after 18 months due to international pressure. He has since published eight short story and poetry books and is currently a writer-in-residence at City of Asylum in Pittsburgh. Nancy Alfaya is a leading human rights defender in Cuba, with a specific focus on women's rights. When Jorge was imprisoned in 2003, she organized peaceful marches and protests as part of the 'Ladies in White,' demanding the release of political prisoners. Despite ongoing harassment and arrests by Cuban authorities, the couple continues their work advocating for freedom and human rights. As of 2021, they remain in exile in Pittsburgh.",
         youtubeUrl: "https://www.youtube.com/embed/HMI5NNpMQYU",
-        previewUrl: 'https://www.ralphvituccio.com/',
     },
     {
         id: 3,
@@ -41,17 +40,21 @@ const videoData = [
         id: 4,
         title: "Mukhtar Saad Shehata",
         description: "Mukhtar Shehata is an Egyptian freelance researcher and writer. He holds an MA degree in African Studies, Indigenous Peoples, and Black Cultures from the Universidade do Estado da Bahia. He is the author of several novels, short stories, and research essays, and co-author with Samuli Schielke of the monograph 'Shared Margins: An Ethnography with Writers in Alexandria after the Revolution.'",
-        fullDescription: "More details about Video 3 for interested viewers.",
+        fullDescription: "Mukhtar Shehata is an Egyptian writer and independent researcher affiliated with Leibniz-Zentrum Moderner Orient (ZMO) in Berlin. His research focuses on changes in the lives of Egyptian women and the rise of the 'semi-city' after the 2011 revolution. Together with Samuli Schielke, he examines how rural-urban and international migrations transform society between Egypt and its diasporas, particularly how conservative strivings and the dream of stability create new forms of life that both reproduce and undermine patriarchal ideals. His work explores the emergence of 'semi-cities' where rural traditions and urban consumerist lifestyles intermingle, creating new tactical avenues of action especially for women in families seeking to combine urban lifestyles with village residence.",
         youtubeUrl: "https://www.youtube.com/embed/-AwvlwB0JoM",
         previewUrl: '/Mukhtar',
     },
     {
         id: 5,
         title: "Haifa Subay",
-        description: "Video 3 Description",
-        fullDescription: "More details about Video 3 for interested viewers.",
+        description: "Haifa Subay is a Yemeni graffiti artist and activist who uses street art to raise awareness about the impact of war on women and children in Yemen.",
+        fullDescription: "Haifa Subay is a graffiti artist and activist from Sana'a, Yemen. She holds a bachelor's degree in Accounting from Sana'a University but has dedicated her life to art and advocacy. Since launching her first campaign 'Silent Victims' in 2017, she has painted murals on the bombarded streets of Yemen addressing issues of women and children in wartime, including forced disappearances, domestic violence, child recruitment, and the ongoing desire for peace. In 2019, she was invited to participate in the Singapore Biennale and was shortlisted for the prestigious Benesse Prize. Despite receiving death threats for her work, Haifa continues her advocacy through public campaigns and social media. In 2020, she launched 'Women and War' in Aden, a campaign inspired by her own experiences as a pregnant woman and mother during conflict. She is currently a fellow artist with the Artist Protection Fund in residence at the University of Pittsburgh's Global Studies Center",
         youtubeUrl: "https://www.youtube.com/embed/RwCAg1dHtlA",
-        previewUrl: 'https://www.instagram.com/haifasubay/?hl=en',
+        previewUrl: 'https://haifasubay.wordpress.com/',
+        additionalLinks: [
+            { label: "Shiftworks Community", url: "https://shiftworkspgh.org/pittsburgh-creative-corps/artist-directory/haifa-subay/" },
+            { label: "iNSTAGRAM", url: "https://www.instagram.com/haifasubay/?hl=en" }
+        ]
     },
     {
         id: 6,

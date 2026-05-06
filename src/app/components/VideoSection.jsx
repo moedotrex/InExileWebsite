@@ -11,6 +11,10 @@ const videoData = [
         fullDescription: "Mai Khoi is a Vietnamese musician and activist who evolved from a celebrated pop star to one of Vietnam's most prominent dissidents. Known as Vietnam's Lady Gaga', she faced government censorship and harassment after publicly advocating for democracy, human rights, and political reform. Her concerts were banned, and she was placed under surveillance for attempting to run for political office and staging protests.In 2019, Mai Khoi fled Vietnam and sought asylum in the United States. She continues her activism through music and advocacy, speaking out against authoritarianism and fighting for freedom of expression. She is currently based in the United States and remains a powerful voice for Vietnamese dissidents and democracy activists worldwide.",
         youtubeUrl: "https://www.youtube.com/embed/4gldcJvXJb8",
         previewUrl: 'https://mai-khoi.com/',
+        additionalLinks: [
+            { label: "Instagram", url: "https://www.instagram.com/mai.khoi/" },
+            { label: "Twitter", url: "https://twitter.com/maikhoihanoi" }
+        ]
     },
     {
         id: 2,
@@ -75,7 +79,7 @@ const VideoSection = () => {
     <>
     <section id="projects" style={{ marginTop: "6rem" }}>
     <h2 className='text-center text-4xl font-bold text-white mt-2 mb-16 md:mb-1'>
-        Video Section
+        Videos
     </h2>
         <div className='grid md:grid-cols-2 gap-8 md:gap-12 mt-8'>
         {videoData.map((video) => (

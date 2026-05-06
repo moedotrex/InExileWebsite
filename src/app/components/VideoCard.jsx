@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Link from "next/link";
 
-const VideoCard = ({ videoUrl, youtubeUrl, title, description, fullDescription, previewUrl }) => {
+const VideoCard = ({ videoUrl, youtubeUrl, title, description, fullDescription, previewUrl, additionalLinks }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -43,15 +43,36 @@ const VideoCard = ({ videoUrl, youtubeUrl, title, description, fullDescription, 
         {isExpanded && fullDescription && (
           <div className="mb-3">
             <p className="text-[#ADB7BE] mb-2">{fullDescription}</p>
+            
+            {/* Main preview link */}
             {previewUrl && (
-              <a 
-                href={previewUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 underline"
-              >
-                Learn more →
-              </a>
+              <div className="mb-2">
+                <a 
+                  href={previewUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 underline block"
+                >
+                  Learn more →
+                </a>
+              </div>
+            )}
+            
+            {/* Additional links */}
+            {additionalLinks && additionalLinks.length > 0 && (
+              <div className="space-y-1 mt-2">
+                {additionalLinks.map((link, index) => (
+                  <a 
+                    key={index}
+                    href={link.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 underline block text-sm"
+                  >
+                    {link.label} →
+                  </a>
+                ))}
+              </div>
             )}
           </div>
         )}

@@ -22,6 +22,12 @@ const videoData = [
         description: "Writer Jorge Olivera Castillo and human rights defender Nancy Alfaya are Cuban activists who have dedicated their careers to bringing sociopolitical change through fiction, poetry, journalism, and activism. Both have been arrested and imprisoned on numerous occasions for their work advocating for democratic change and political and artistic freedom in Cuba.",
         fullDescription: "Jorge was arrested in 2003 during the 'Black Spring' purge of 75 dissidents and sentenced to 18 years in prison for 'producing enemy propaganda' after reporting for Radio Marti. After 9 months in solitary confinement, he was released after 18 months due to international pressure. He has since published eight short story and poetry books. Nancy organized peaceful marches and protests as part of the 'Ladies in White,' demanding the release of political prisoners. As of 2021, both remain in exile in Pittsburgh, where Jorge is a writer-in-residence at City of Asylum.",
         youtubeUrl: "https://www.youtube.com/embed/HMI5NNpMQYU",
+        additionalLinks: [
+            { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Jorge_Olivera_Castillo" },
+            { label: "Poetry by Jorge Olivera Castillo", url: "https://intranslation.brooklynrail.org/spanish/poetry-by-jorge-olivera-castillo/" },
+            { label: "Nancy Alfaya has been targeted by the Cuban government for her work defending women's rights", url: "https://raceandequality.org/resources/nancy-alfaya-has-been-targeted-by-the-cuban-government-for-her-work-defending-womens-rights/" },
+            { label: "A Marriage against Cuba's Dictatorship", url: "https://washingtonstand.com/commentary/jorge-olivera-and-nancy-alfaya-a-marriage-against-cubas-dictatorship-part-1" }
+        ]
     },
     {
         id: 3,
@@ -43,6 +49,9 @@ const videoData = [
         fullDescription: "Currently affiliated with Leibniz-Zentrum Moderner Orient (ZMO) in Berlin, his research focuses on changes in the lives of Egyptian women and the rise of the 'semi-city' after the 2011 revolution. Together with Samuli Schielke, he examines how rural-urban and international migrations transform society between Egypt and its diasporas, particularly how conservative strivings and the dream of stability create new forms of life that both reproduce and undermine patriarchal ideals.",
         youtubeUrl: "https://www.youtube.com/embed/-AwvlwB0JoM",
         previewUrl: '/mukhtar',
+        additionalLinks: [
+            { label: "Google Scholar Website", url: "https://scholar.google.com/citations?user=n8mUn4kAAAAJ&hl=en" }
+        ]
     },
     {
         id: 5,
@@ -62,6 +71,10 @@ const videoData = [
         description: "Habibullah Sorosh is an Afghan artist and activist who has been featured in various cultural programs and exhibitions in the United States.",
         fullDescription: "He has participated in programs at MIT's List Visual Arts Center and has been featured in exhibitions exploring themes of displacement and cultural identity. Sorosh continues to engage with the Afghan diaspora community through his artistic practice.",
         youtubeUrl: "https://www.youtube.com/embed/aGSUgClJmnY",
+        additionalLinks: [
+            { label: "Habib Sorosh: A Biography", url: "https://www.globalengagement.chatham.edu/blog/2023/04/24/habib-sorosh-a-biography" },
+            { label: "Trying for Nothing: A Personal Narrative by Habibullah Sorosh", url: "https://www.globalengagement.chatham.edu/blog/2022/08/01/trying-for-nothing" }
+        ]
     },
     {
         id: 7,
@@ -70,6 +83,11 @@ const videoData = [
         fullDescription: "Her work includes 'Thirteen Months of Sunrise' published by Comma Press. Rania has been actively involved in grassroots organizing in Sudan and co-founded the Medani Resistance Committees. She fled Sudan during the recent conflict and is currently based in Pittsburgh, where she continues her writing and activism. Her work explores themes of displacement, women's rights, and political resistance.",
         youtubeUrl: "https://www.youtube.com/embed/WWxP_U0M_MU",
         previewUrl: 'https://www.instagram.com/raniamamoun/?hl=en',
+        additionalLinks: [
+            { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Rania_Mamoun" },
+            { label: "Words Without Borders", url: "https://wordswithoutborders.org/contributors/view/rania-mamoun/" },
+            { label: "Goodreads", url: "https://www.goodreads.com/author/list/15369578.Rania_Mamoun" }
+        ]
     },
     {
         id: 8,
@@ -86,7 +104,7 @@ const VideoSection = () => {
     <>
     <section id="projects" style={{ marginTop: "6rem" }}>
     <h2 className='text-center text-4xl font-bold text-white mt-2 mb-16 md:mb-1'>
-        Videos
+        Individual Artists
     </h2>
         <div className='grid md:grid-cols-2 gap-8 md:gap-12 mt-8'>
         {videoData.map((video) => (

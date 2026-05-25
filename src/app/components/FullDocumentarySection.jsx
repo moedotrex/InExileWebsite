@@ -10,7 +10,7 @@ const FullDocumentarySection = () => {
         <div className="h-0 relative overflow-hidden rounded-xl" style={{ paddingTop: "56.25%" }}>
           <iframe
             className="absolute top-0 left-0 w-full h-full rounded-xl"
-            src="https://vimeo.com/1154088902"
+            src="https://youtu.be/C_hl1LU2zYw"
             title="In Exile - Full Documentary"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
